@@ -5,7 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "dataclasses>=0.8",
     "dotenv>=0.9.9",
+    "groq>=0.20.0",
     "openai>=1.68.2",
     "ruff>=0.11.2",
+    "tavily-python>=0.5.1",
 ]
